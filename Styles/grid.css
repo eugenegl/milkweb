@@ -1,3 +1,15 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+    flex-basis: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 .col-1 {
   width: 8.333333%;
 }

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&subset=cyrillic');
+
+body {
+    font-family: 'PT Mono', monospace;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-image: linear-gradient(to right, #225df4, #0e2153);
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.header h1 {
+    font-size: 82px;
+}
+
+.header h2 {
+    font-size: 42px;
+}
+
+.profits {
+    padding: 100px 0;
+}
+
+.profits h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.profits img {
+    width: 100%;
+}
+
+.profits-section {
+    margin-bottom: 100px;
+}
+
+.profits .row {
+    align-items: center;
+}
+
+.pricing {
+    margin-bottom: 100px;
+}
+
+.pricing h3 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.pricing-text {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 50px 0px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-profit-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.card-profit {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card-profit:last-child {
+    margin-bottom: 0px;
+}
+
+.card-price {
+    font-size: 62px;
+}
+
+.card-profit-container-scnd {
+    margin-bottom: 40px;
+}
+
+.pricing-card-frst {
+    background-image: linear-gradient(to bottom, #13f1fc, #0470dc);
+    transition: 0.2s;
+}
+
+.pricing-card-frst:hover {
+    transition: 0.2s;
+    box-shadow: 0px 6px 59px -11px rgba(4,112,220,1);
+}
+
+.pricing-card-scnd {
+    background-image: linear-gradient(to bottom, #c56cd6, #3425af);
+    padding: 80px 0px;
+    transition: 0.2s;
+}
+
+.pricing-card-scnd:hover {
+    transition: 0.2s;
+    box-shadow: 0px 6px 59px -11px rgba(52,37,175,1);
+}
+
+.pricing-card-third {
+    background-image: linear-gradient(to bottom, #65799b, #5e2563);
+    transition: 0.2s;
+}
+
+.pricing-card-third:hover {
+    transition: 0.2s;
+    box-shadow: 0px 6px 59px -11px rgba(94,37,99,1);
+}
+
+.chatbot {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.chatbot h3 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.chatbot-text {
+    margin-bottom: 75px;
+}
+
+.chatbot img {
+    width: 100%;
+}
+
+.future {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.future h3 {
+    font-size: 36px;
+    margin-bottom: 53px;
+}
+
+.future p {
+    margin-bottom: 80px;
+}
+
+.future button {
+    width: 271px;
+    height: 63px;
+    color: white;
+    background-color: #de75d5;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.future button:hover {
+    transition: 0.2s;
+    box-shadow: 0px 6px 59px -11px rgba(222,117,213,1);
+}
+
+footer {
+    background-color: #312e3b;
+    color: white;
+    padding: 37px 0;
+    text-align: center;
+}
+
+@media(max-width: 940px) {
+   .profits img {
+    width: 100%;
+    margin-bottom: 25px;
+    } 
+    
+    .scnd-section {
+        flex-direction: column-reverse;
+    }
+    
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+   .header h1 {
+    font-size: 42px;
+    }
+
+    .header h2 {
+    font-size: 22px;
+    } 
+    
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+}
